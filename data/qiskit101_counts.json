@@ -1,0 +1,91 @@
+{
+  "source": "hardware",
+  "backend": "ibm_fez",
+  "created": "2026-09-25",
+  "shots": 1024,
+  "job_id": "daquf1mekp0c73arb8l0",
+  "circuits": [
+    {
+      "name": "qc1",
+      "description": "|0>: nothing applied",
+      "counts": {
+        "0": 1024
+      }
+    },
+    {
+      "name": "qc2",
+      "description": "|1>: X",
+      "counts": {
+        "1": 1019,
+        "0": 5
+      }
+    },
+    {
+      "name": "qc3",
+      "description": "|+>: H",
+      "counts": {
+        "0": 508,
+        "1": 516
+      }
+    },
+    {
+      "name": "qc4",
+      "description": "|->: X then H",
+      "counts": {
+        "1": 539,
+        "0": 485
+      }
+    },
+    {
+      "name": "qc5",
+      "description": "|left>: H then Sdg",
+      "counts": {
+        "0": 507,
+        "1": 517
+      }
+    },
+    {
+      "name": "qc6",
+      "description": "Bell (Phi+): H, CX",
+      "counts": {
+        "00": 515,
+        "11": 490,
+        "10": 11,
+        "01": 8
+      }
+    },
+    {
+      "name": "qc7",
+      "description": "anti-correlated: H, X, CX, Z",
+      "counts": {
+        "10": 533,
+        "01": 480,
+        "00": 7,
+        "11": 4
+      }
+    },
+    {
+      "name": "qc8",
+      "description": "RX(pi/3) on q0, X on q1, then SWAP",
+      "counts": {
+        "11": 265,
+        "01": 748,
+        "00": 10,
+        "10": 1
+      }
+    },
+    {
+      "name": "qc9",
+      "description": "GHZ on three qubits",
+      "counts": {
+        "000": 514,
+        "111": 483,
+        "101": 6,
+        "110": 8,
+        "011": 5,
+        "100": 4,
+        "001": 4
+      }
+    }
+  ]
+}
